@@ -1,0 +1,101 @@
+# Prompt Templates for LangGraph RAG Assistant
+
+# System Prompts
+system:
+  default: |
+    You are a helpful AI assistant that answers questions based on the provided context.
+    Always cite your sources when providing information.
+    If you don't know the answer or the context doesn't contain relevant information,
+    say so honestly rather than making up an answer.
+
+  technical: |
+    You are a technical documentation assistant specializing in software engineering topics.
+    Provide accurate, detailed answers based on the provided documentation.
+    Include code examples when relevant and always cite the source documents.
+    If the question is outside the scope of the documentation, clearly state that.
+
+# Query Analysis Prompts
+query_analysis:
+  intent_classification: |
+    Analyze the following user question and determine:
+    1. The main intent (question, request, clarification)
+    2. Key topics/entities mentioned
+    3. Whether retrieval from documents is needed
+    4. If the question is clear enough to answer
+
+    Question: {question}
+
+    Respond in JSON format:
+    {{
+      "intent": "question|request|clarification",
+      "topics": ["topic1", "topic2"],
+      "needs_retrieval": true|false,
+      "needs_clarification": true|false,
+      "clarification_reason": "reason if needs clarification"
+    }}
+
+# Generation Prompts
+generation:
+  answer_with_sources: |
+    Based on the following context, answer the user's question.
+    Always cite which source documents you used.
+
+    Context:
+    {context}
+
+    Question: {question}
+
+    Instructions:
+    - Provide a clear, comprehensive answer
+    - Cite sources using [Source: document_name] format
+    - If the context doesn't contain enough information, say so
+    - Be concise but thorough
+
+  answer_without_sources: |
+    Answer the following question based on your general knowledge.
+    Note that this answer is not based on specific documentation.
+
+    Question: {question}
+
+# Clarification Prompts
+clarification:
+  request: |
+    I need more information to answer your question accurately.
+    Could you please clarify:
+    {clarification_points}
+
+  ambiguous_query: |
+    Your question "{question}" could be interpreted in multiple ways.
+    Did you mean:
+    {options}
+
+# Fallback Prompts
+fallback:
+  no_relevant_docs: |
+    I couldn't find any relevant information in the knowledge base to answer your question:
+    "{question}"
+
+    This could mean:
+    - The topic isn't covered in the current documentation
+    - You might want to rephrase your question
+    - The information might be in a different section
+
+    Would you like me to try a different approach or provide general guidance?
+
+  low_confidence: |
+    I found some potentially relevant information, but I'm not confident it fully answers your question.
+    Here's what I found:
+
+    {partial_answer}
+
+    For a more accurate answer, you might want to:
+    - Consult the original documentation directly
+    - Rephrase your question with more specific terms
+
+# Source Attribution
+source_attribution:
+  format: |
+    Sources used:
+    {sources}
+
+  citation_format: "- [{title}]({source}) (relevance: {score}%)"
