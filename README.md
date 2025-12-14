@@ -1,6 +1,26 @@
 # LangGraph RAG Assistant
 
+[![CI](https://github.com/morgandt-reed/langgraph-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/morgandt-reed/langgraph-rag-assistant/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
+
 Enterprise-ready Retrieval Augmented Generation (RAG) system with LangGraph multi-step reasoning workflows for technical documentation querying.
+
+## Demo
+
+![API Documentation](docs/screenshots/api-docs.png)
+*FastAPI Swagger UI for testing RAG queries*
+
+<details>
+<summary>View more screenshots</summary>
+
+### Query Response with Sources
+![Query Response](docs/screenshots/query-response.png)
+
+### Document Ingestion
+![Ingestion](docs/screenshots/ingestion.png)
+
+</details>
 
 ## Architecture
 
